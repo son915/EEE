@@ -1,0 +1,65 @@
+{
+    "short_name": "투자 시뮬레이터",
+    "name": "LLM 기반 투자회사 시뮬레이터",
+    "description": "AI와 함께하는 웹 기반 투자회사 시뮬레이션 게임",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": ".",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#111827",
+    "background_color": "#111827",
+    "categories": ["games", "finance", "simulation"],
+    "screenshots": [
+      {
+        "src": "screenshot1.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "description": "대시보드 화면"
+      },
+      {
+        "src": "screenshot2.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "description": "트레이딩 화면"
+      }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "shortcuts": [
+      {
+        "name": "대시보드",
+        "url": "/dashboard",
+        "description": "투자 현황 대시보드"
+      },
+      {
+        "name": "트레이딩",
+        "url": "/trading",
+        "description": "실시간 트레이딩"
+      },
+      {
+        "name": "포트폴리오",
+        "url": "/portfolio",
+        "description": "포트폴리오 관리"
+      }
+    ],
+    "lang": "ko-KR"
+  }
